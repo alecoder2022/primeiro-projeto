@@ -49,13 +49,6 @@ def main(page: ft.Page):
         tb3.value = ''
         page.update()
 
-    # def dica(e):
-    #     dlg3 = ft.AlertDialog(
-    #             title=ft.Text("Informar as dimensões em metros", size=16)
-    #     )
-    #     page.open(dlg3)
-    #     page.update()
-
     def sair_app(e):
         page.window.close()
         
